@@ -1,0 +1,4 @@
+from django.shortcuts import render,redirect
+def calculate(request):
+    region={"North":["Himachal Pradesh","Haryana","Punjab","Uttar Pradesh","Uttarakhand","Chandigarh","Delhi","Jammu and Kashmir","Ladakh"],"West":["Rajasthan","Gujarat","Dadra and Nagar Haveli and Daman and Diu","Maharashtra","Goa"],"East":["Bihar","West Bengal","Sikkim","Meghalaya","Assam","Arunachal Pradesh","Nagaland","Manipur","Mizoram","Tripura","Odisha"],"South":["Telangana","Karnataka","Andhra Pradesh","Kerala","Tamil Nadu","Puducherry","Andaman and Nicobar Islands","Lakshadweep"],"Middle":["Madhya Pradesh","Chhattisgarh","Jharkhand"]}
+    
